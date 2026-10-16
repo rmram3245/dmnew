@@ -1,0 +1,10 @@
+[12-Sep-2025 11:14:15 UTC] PHP Warning:  Undefined array key "p_name" in /home4/dgrow38b/public_html/cart/checkout.php on line 348
+[12-Sep-2025 11:14:15 UTC] PHP Warning:  Undefined array key "quantity" in /home4/dgrow38b/public_html/cart/checkout.php on line 348
+[12-Sep-2025 11:14:15 UTC] PHP Warning:  Undefined array key "total" in /home4/dgrow38b/public_html/cart/checkout.php on line 348
+[12-Sep-2025 11:14:15 UTC] PHP Warning:  Undefined array key "p_name" in /home4/dgrow38b/public_html/cart/checkout.php on line 354
+[12-Sep-2025 11:14:15 UTC] PHP Warning:  Undefined array key "total" in /home4/dgrow38b/public_html/cart/checkout.php on line 355
+[12-Sep-2025 11:16:51 UTC] PHP Warning:  Undefined array key "p_name" in /home4/dgrow38b/public_html/cart/checkout.php on line 348
+[12-Sep-2025 11:16:51 UTC] PHP Warning:  Undefined array key "quantity" in /home4/dgrow38b/public_html/cart/checkout.php on line 348
+[12-Sep-2025 11:16:51 UTC] PHP Warning:  Undefined array key "total" in /home4/dgrow38b/public_html/cart/checkout.php on line 348
+[12-Sep-2025 11:16:51 UTC] PHP Warning:  Undefined array key "p_name" in /home4/dgrow38b/public_html/cart/checkout.php on line 354
+[12-Sep-2025 11:16:51 UTC] PHP Warning:  Undefined array key "total" in /home4/dgrow38b/public_html/cart/checkout.php on line 355
