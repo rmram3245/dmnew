@@ -1,9 +1,9 @@
 <?php
 // db.php
-$host = "localhost";
-$user = "dgroworg_dmart";
-$pass = "aditya@12.A";
-$dbname = "dgroworg_dmart"; // change to your DB name
+$host = "gateway01.ap-northeast-1.prod.aws.tidbcloud.com";
+$user = "RC3PaUwsz1fMq9a.root";
+$pass = "GkvYTuCvdumYM9JQ";
+$dbname = "dreadyst_dmartt"; // change to your DB name
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
