@@ -2,10 +2,10 @@
 // db_config.php
 
 // Database connection parameters
-$servername = "localhost";
-$username = "dgroworg_dmart";
-$password = "aditya@12.A";
-$dbname = "dgroworg_dmart";
+$servername = "gateway01.ap-northeast-1.prod.aws.tidbcloud.com";
+$username = "RC3PaUwsz1fMq9a.root";
+$password = "GkvYTuCvdumYM9JQ";
+$dbname = "dreadyst_dmart";
 
 try {
     // Establishing connection to the database
