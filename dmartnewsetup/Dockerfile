@@ -7,13 +7,10 @@ WORKDIR /var/www/html
 
 COPY . /var/www/html/
 
-RUN echo "=== Files copied into container ===" \
-    && ls -la /var/www/html/
+RUN echo "=== WEBSITE ROOT ===" \
+    && ls -la /var/www/html/ \
+    && test -f /var/www/html/index.php
 
-RUN chown -R www-data:www-data /var/www/html/ \
-    && find /var/www/html -type d -exec chmod 755 {} \; \
-    && find /var/www/html -type f -exec chmod 644 {} \;
-
-RUN a2enmod rewrite
+RUN chown -R www-data:www-data /var/www/html/
 
 EXPOSE 80
