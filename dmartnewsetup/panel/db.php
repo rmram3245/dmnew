@@ -1,4 +1,3 @@
-
 <?php
 // db.php
 
@@ -8,7 +7,7 @@ $host = getenv('DB_HOST');
 $user = getenv('DB_USER');
 $pass = getenv('DB_PASSWORD');
 $dbname = getenv('DB_NAME');
-$port = 4000;
+$port = getenv('DB_PORT') ?: '4000';
 
 // Download the CA certificate from TiDB Cloud
 $ca = __DIR__ . '/tidb-ca.pem';
