@@ -5,7 +5,7 @@ $servername = getenv('DB_HOST');
 $username   = getenv('DB_USER');
 $password   = getenv('DB_PASSWORD');
 $dbname     = getenv('DB_NAME');
-$port       = 4000;
+$port = getenv('DB_PORT') ?: '4000';
 
 // CA certificate file must be deployed with this PHP file.
 $caFile = __DIR__ . '/tidb-ca.pem';
