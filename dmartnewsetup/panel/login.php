@@ -7,8 +7,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = trim($_POST['password'] ?? '');
 
     // 🔑 Hardcoded credentials
-    $valid_username = "tusi";
-    $valid_password = "tusi";
+    $valid_username = "dmart";
+    $valid_password = "sisi";
 
     if ($username === $valid_username && $password === $valid_password) {
         // Save session variable
