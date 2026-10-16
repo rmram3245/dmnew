@@ -3,11 +3,9 @@ session_start();
 
 require_once __DIR__ . '/db_config.php';
 
-$product_id = filter_input(
-    INPUT_GET,
-    'id',
-    FILTER_VALIDATE_INT
-);
+ini_set('display_errors', '0');
+
+$product_id = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
 
 if (!$product_id || $product_id < 1) {
     http_response_code(400);
@@ -27,12 +25,11 @@ try {
 
     if (!$product) {
         http_response_code(404);
-        exit('Product not found!');
+        exit('Product not found.');
     }
-
-} catch (PDOException $e) {
-    error_log('Product query failed: ' . $e->getMessage());
+} catch (Throwable $e) {
+    error_log('Product page error: ' . $e->getMessage());
     http_response_code(500);
-    exit('Unable to load this product right now.');
+    exit('Product load failed. Please check Render logs.');
 }
 ?>
