@@ -17,7 +17,7 @@ SET time_zone = "+05:30";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `dgroworg_dmart`
+-- Database: `dreadyst_dmart`
 --
 
 -- --------------------------------------------------------
