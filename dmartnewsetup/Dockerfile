@@ -7,9 +7,8 @@ WORKDIR /var/www/html
 
 COPY . /var/www/html/
 
-RUN echo "=== Checking website files ===" \
-    && ls -la /var/www/html/ \
-    && test -f /var/www/html/index.php
+RUN echo "=== Files copied into container ===" \
+    && ls -la /var/www/html/
 
 RUN chown -R www-data:www-data /var/www/html/ \
     && find /var/www/html -type d -exec chmod 755 {} \; \
