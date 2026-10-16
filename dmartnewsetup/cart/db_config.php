@@ -1,4 +1,3 @@
-
 <?php
 // cart/db_config.php
 
